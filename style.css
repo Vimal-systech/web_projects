@@ -1,0 +1,39 @@
+  * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f6f8;
+      color: #2d3748;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 64px;
+    }
+    .logo { font-size: 18px; font-weight: 700; color: #1a202c; }
+    .logo span { color: #e05a20; }
+    .tag { font-size: 12px; color: #e05a20; border: 1px solid #e05a2044; padding: 4px 12px; border-radius: 20px; }
+    .hero { margin-bottom: 56px; }
+    .hero h1 { font-size: 36px; font-weight: 700; color: #1a202c; line-height: 1.2; margin-bottom: 12px; }
+    .hero h1 span { color: #e05a20; }
+    .hero p { color: #718096; font-size: 15px; }
+    .block { margin-bottom: 48px; }
+    .block h2 { font-size: 13px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; color: #e05a20; margin-bottom: 20px; }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    @media(max-width:500px){ .cols { grid-template-columns: 1fr; } }
+    .col { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; }
+    .col h3 { font-size: 15px; font-weight: 600; color: #1a202c; margin-bottom: 6px; }
+    .col p { font-size: 14px; color: #718096; }
+    .steps { display: flex; flex-direction: column; gap: 16px; }
+    .step { display: flex; gap: 16px; align-items: flex-start; }
+    .step-n { width: 28px; height: 28px; flex-shrink: 0; border-radius: 50%; background: #e05a2015; border: 1px solid #e05a2055; color: #e05a20; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+    .step-text h4 { font-size: 14px; font-weight: 600; color: #1a202c; }
+    .step-text p  { font-size: 13px; color: #718096; }
+    .cmds { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    @media(max-width:500px){ .cmds { grid-template-columns: 1fr; } }
+    .cmd { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px 14px; }
+    .cmd code { display: block; font-family: monospace; font-size: 13px; color: #c0440a; margin-bottom: 4px; }
+    .cmd span { font-size: 12px; color: #718096; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e2e8f0; font-size: 13px; color: #718096; text-align: center; }
